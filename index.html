@@ -10,15 +10,11 @@
 
 	<body>
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar">
 		  <a class="navbar-brand" href="#">DreamCars</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-		    <ul class="navbar-nav">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#">SearchCars <span class="sr-only">(current)</span></a>
+		    <ul class="nav justify-content-end">
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">SearchCars</a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="#">Buyer Tips</a>
@@ -39,10 +35,17 @@
 		<section id="findyourdreamcar">
 			<h1>Find Your Dream Car</h1>
 			<p>Search over 20,000 pre-approved used cars and find your perfect vehicle today</p>
-			<input type="" name="" placeholder="Search make or model" class="search_make_or_model">
-			<input type="" name="" placeholder="Postcode" class="postcode">
-			<button class="find_my_car">Find My Car</button>
 		</section>
+
+		<form class="form-inline">
+			<label class="sr-only" for="inlineFormInputName2">Search make or model</label>
+			<input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Search make or model">
+
+			<label class="sr-only" for="inlineFormInputName2">Postcode</label>
+			<input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Postcode">
+
+			<button type="submit" class="btn btn-primary mb-2">Submit</button>
+		</form>
 
 		<img src="./images/Mercedes_Benz_PNG_Transparent_A0_Rectangle_18_pattern.png">
 
