@@ -15,7 +15,7 @@
 		  <a class="navbar-brand" href="#">DreamCars</a>
 		    <ul class="nav justify-content-end">
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">SearchCars</a>
+		        <a class="nav-link" href="#">Search Cars</a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="#">Buyer Tips</a>
@@ -30,7 +30,6 @@
 		        <a class="nav-link" href="#">Sign Up</a>
 		      </li>
 		    </ul>
-		  </div>
 		</nav>
 
 		<!--<div class="color-overlay"></div>-->
@@ -54,47 +53,55 @@
 
 		<img src="./images/Mercedes_Benz_PNG_Transparent_A0_Rectangle_18_pattern.png">
 
-		<span>Today's Hottest Deals</span>
+		<h4>Today's Hottest Deals</h4>
 		<p>Check out the most popular cars in stock today</p>
 
-		<div>
+		<div class="cars-container">
 			<section>
 				<img src="./images/ID25895_GWY_R_A0_Rectangle_28_pattern.png">
+				<br>
 				<span>Ford Focus</span>
 			</section>
 			<section>
 				<img src="./images/ID25895_GWY_R_A0_Rectangle_31_pattern.png">
+				<br>
 				<span>Skoda Fabia</span>
 			</section>
 			<section>
 				<img src="./images/ID25895_GWY_R_A0_Rectangle_34_pattern.png">
+				<br>
 				<span>Honda Civic</span>
 			</section>
 			<section>
 				<img src="./images/ID25895_GWY_R_A0_Rectangle_37_pattern.png">
+				<br>
 				<span>Vauxhall Corsa</span>
 			</section>
 			<section>
 				<img src="./images/ID25895_GWY_R_A0_Rectangle_40_pattern.png">
+				<br>
 				<span>Renault Clio</span>
 			</section>
 			<section>
 				<img src="./images/ID25895_GWY_R_A0_Rectangle_43_pattern.png">
+				<br>
 				<span>Volkswagen Polo</span>
 			</section>
 			<section>
 				<img src="./images/ID25895_GWY_R_A0_Rectangle_46_pattern.png">
+				<br>
 				<span>Seat Lbiza</span>
 			</section>
 			<section>
 				<img src="./images/ID25895_GWY_R_A0_Rectangle_49_pattern.png">
+				<br>
 				<span>BMW i5</span>
 			</section>
 		</div>
 
 		<button>VIEW ALL TODAY'S DEALS</button>
 
-		<span>Our Top Buying Tips</span>
+		<h4>Our Top Buying Tips</h4>
 		<p>Make sure you make the right choice picking a car</p>
 
 		<div>
@@ -114,17 +121,30 @@
 
 		<button>SEE ALL OUR GUIDES</button>
 
-		<span>NEVER MISS A MESSAGE</span>
+		<h3>NEVER MISS A MESSAGE</h3>
 		<p>Join our exclusive list for one off deals and more</p>
-		<input type="" name="" placeholder="Enter your email address..">
-		<button>Sign Me Up</button>
+
+		<form class="form-inline">
+			<label class="sr-only" for="inlineFormInputName2">Enter your email address..</label>
+			<input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Enter your email address..">
+
+			<button type="submit" class="btn btn-primary mb-2">Sign Me Up</button>
+		</form>
 
 		<footer>
-			<span>DreamCars</span>
-			<nav id="bottomnav">
-				<span>Search Cars</span>
-				<span>Buyer Tips</span>
-				<span>Finance</span>
+			<nav class="navbar">
+			  <a class="navbar-brand" href="#">DreamCars</a>
+			    <ul class="nav justify-content-end">
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Search Cars</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Buyer Tips</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Finance</a>
+			      </li>
+			    </ul>
 			</nav>
 		</footer>
 
