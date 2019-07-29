@@ -97,6 +97,15 @@
 		justify-content: center;
 	}
 
+	img {
+ 		display: flex;
+    	margin: auto;
+ 	}
+
+	h3, h4 {
+		text-align: center;
+	}
+
 	.cars-container {
         display: flex;
         flex-wrap: wrap;
@@ -107,6 +116,23 @@
     .cars-container img {
     	width: 400px;
         height: 250px;
+        margin-top: 15px;
+    }
+
+    .cars-container p {
+    	font-size: 1.5em;
+    }
+
+    .guides {
+    	display: flex;
+    	flex-wrap: wrap;
+    	text-align: center;
+    	justify-content: center;
+    }
+
+    .guides img {
+    	width: 400px;
+        height: 200px;
         margin-top: 15px;
     }
 }
