@@ -9,6 +9,14 @@
  	justify-content: center;
  }
 
+#button-orange {
+	display: flex;
+	margin: auto;
+	background-color: rgba(245,166,35,1);
+	border-color: rgba(245,166,35,1);
+	color: white;
+}
+
  /*.picrture {
  	background: url(./images/Background_A0_Group_41_pattern.png);
  	height: 400px;
