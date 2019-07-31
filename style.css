@@ -40,11 +40,15 @@
 }
 
 nav.navbar {
-	margin-top: -560px;
+	/*margin-top: -560px;*/
+}
+
+a.nav-link {
+	color: white;
 }
 
 #findyourdreamcar h1 {
-	margin-top: 125px;
+	/*margin-top: 125px;*/
 	display: flex;
 	justify-content: center;
 	color: white;
@@ -81,6 +85,12 @@ nav.navbar {
 	height: 100%;
 	max-width: 679px;
 	max-height: 314px;
+}
+
+#top_image {
+	background-image: url(./images/Background_A0_Group_41_pattern.png), linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 0.984313725490196));
+	background-position: center;
+	height: 612px;
 }
 
  /*.picrture {
