@@ -18,6 +18,8 @@
 	/*width: 228px;
 	height: 60px;*/
 	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 #button-lime-green {
@@ -26,6 +28,10 @@
 	color: rgba(117,117,117,1);
 	width: 110px;
 	height: 44px;
+}
+
+p {
+	text-align: center;
 }
 
 /*#top_background_image img {
@@ -119,6 +125,49 @@ a.nav-link {
  	opacity: 0.4;
  }
  */
+
+ .Our-Buyers-Check-List {
+ 	background: url(./images/Rectangle_4_A0_Rectangle_20_pattern.png);
+ 	background-size: cover;
+  	width: 400px;
+ 	height: 200px;
+  	margin: 10px 0 0 10px;
+  	position: relative;
+  	float: left;
+ }
+
+.Our-Buyers-Check-List p,
+ .How-To-Spot-Fraud p,
+ .Best-Used-Cars-2018 p {
+	padding: 20px;
+	color: white;
+	font: 24px Poppins;
+	font-weight: bold;
+	margin: 0;
+	padding-top: 150px;
+}
+
+.How-To-Spot-Fraud {
+ 	background: url(./images/Rectangle_4_A0_Rectangle_22_pattern.png);
+ 	background-size: cover;
+  	width: 400px;
+ 	height: 200px;
+  	margin: 10px 0 0 10px;
+  	position: relative;
+  	float: left;
+ }
+
+ .Best-Used-Cars-2018 {
+ 	background: url(./images/Rectangle_4_A0_Rectangle_24_pattern.png);
+ 	background-size: cover;
+  	width: 400px;
+ 	height: 200px;
+  	margin: 10px 0 0 10px;
+  	position: relative;
+  	float: left;
+ }
+
+
 
 @media (min-width: 300px) {
 	/*#header {
