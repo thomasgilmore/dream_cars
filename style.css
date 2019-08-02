@@ -102,13 +102,14 @@ a.nav-link {
 
 #top_image {
 	background-image: url(./images/Background_A0_Group_41_pattern.png), linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 0.984313725490196));
-	background-position: center;
+	background-size: 1440px 612px;
 	height: 612px;
+	width: 1440px;
 }
 
 #bottom_image {
 	background-image: url(./images/Section_Four_A0_Group_40_pattern.png), linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 0.984313725490196));
-	background-position: center;
+	background-size: 1440px 348px;
 	height: 348px;
 }
 
