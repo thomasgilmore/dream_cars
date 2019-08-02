@@ -80,7 +80,7 @@ a.nav-link {
 #second_line {
 	margin-top: -10px;
 }
-
+/*
 #bottom_background_image img {
 	max-width: 1440px;
 	max-height: 348px;
@@ -90,7 +90,7 @@ a.nav-link {
 
 #bottom_background_image {
 	background-image: linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 0.984313725490196));
-}
+}*/
 
 #Mercedes_Benz img {
 	width: 100%;
@@ -104,6 +104,38 @@ a.nav-link {
 	background-image: url(./images/Background_A0_Group_41_pattern.png), linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 0.984313725490196));
 	background-position: center;
 	height: 612px;
+}
+
+#bottom_image {
+	background-image: url(./images/Section_Four_A0_Group_40_pattern.png), linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 0.984313725490196));
+	background-position: center;
+	height: 348px;
+}
+
+#bottom_image h3 {
+	color: white;
+	font-weight: bold;
+	font-family: Poppins;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 70px;
+}
+
+#bottom_image p {
+	color: white;
+	font-family: Poppins;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+#bottom_image input {
+	width: 500px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+#bottom_image button {
+	margin-top: 20px;
 }
 
  /*.picrture {
