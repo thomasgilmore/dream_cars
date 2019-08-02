@@ -102,15 +102,18 @@ a.nav-link {
 
 #top_image {
 	background-image: url(./images/Background_A0_Group_41_pattern.png), linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 0.984313725490196));
-	background-size: 1440px 612px;
+	background-size: cover;
+	background-position: center;
 	height: 612px;
-	width: 1440px;
+	width: 100%;
 }
 
 #bottom_image {
 	background-image: url(./images/Section_Four_A0_Group_40_pattern.png), linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 0.984313725490196));
-	background-size: 1440px 348px;
+	background-size: cover;
+	background-position: center;
 	height: 348px;
+	width: 100%;
 }
 
 #bottom_image h3 {
@@ -202,6 +205,41 @@ a.nav-link {
 
 
 
+ .bottom_nav {
+ 	text-decoration: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.bottom_nav h4 {
+    text-align: left;
+    margin: 20px;
+}
+  
+.bottom_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+  
+.bottom_nav li {
+    display: inline-flex;
+}
+
+.bottom_nav a {
+	margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-flex;
+    color: black;
+}
+
+
+
 @media (min-width: 300px) {
 	/*#header {
 		display: block;
@@ -250,11 +288,24 @@ a.nav-link {
     }
 */
 
+	#findyourdreamcar {
+		position: relative;
+  text-align: center;
+  color: white;
+	}
+
+	#findyoudreamcar {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
     /*#findyourdreamcar h1,p {
 	    display: flex;
 	    justify-content: center;
     }*/
-
+/*
     #findyourdreamcar input .search_make_or_model {
     	display: inline-flex;
     	text-align: center;
@@ -268,7 +319,7 @@ a.nav-link {
 	#findyourdreamcar button .find_my_car {
 		display: inline-flex;
 		justify-content: center;
-	}
+	}*/
 
 	img {
  		display: flex;
