@@ -361,11 +361,12 @@ a.nav-link {
 		text-align: center;
 	}
 
-	#Hottest-Deals {
+	#Hottest-Deals, #Our-Top-Buying-Tips {
 		font-family: Poppins;
 		font-weight: bold;
 		font-size: 30px;
-		margin: 30px;
+		margin-top: 50px;
+		margin-bottom: 35px;
 	}
 
 
