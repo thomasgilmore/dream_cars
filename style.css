@@ -15,8 +15,6 @@
 	background-color: rgba(245,166,35,1);
 	border-color: rgba(245,166,35,1);
 	color: white;
-	/*width: 228px;
-	height: 60px;*/
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -44,17 +42,6 @@ p {
 	font-weight: bold;
 }
 
-/*#top_background_image img {
-	max-width: 1440px;
-	max-height: 612px;
-	width: 100%;
-	height: 100%;
-}
-
-#top_background_image {
-	background-image: linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 0.984313725490196));
-}*/
-
 nav.navbar {
 	padding: 25px 50px 0px 60px;
 }
@@ -69,14 +56,13 @@ a.nav-link {
 }
 
 #findyourdreamcar h1 {
-	/*margin-top: 125px;*/
 	display: flex;
 	justify-content: center;
 	color: white;
 	font-size: 54px;
 	font-family: Poppins;
 	font-weight: bold;
-	padding-top: 140px;
+	margin-top: -225px;
 }
 
 #findyourdreamcar p {
@@ -90,17 +76,6 @@ a.nav-link {
 #second_line {
 	margin-top: -10px;
 }
-/*
-#bottom_background_image img {
-	max-width: 1440px;
-	max-height: 348px;
-	width: 100%;
-	height: 100%;
-}
-
-#bottom_background_image {
-	background-image: linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 0.984313725490196));
-}*/
 
 #Mercedes_Benz img {
 	width: 100%;
@@ -119,11 +94,11 @@ a.nav-link {
 }
 
 #top_image #Search-Make-Or-Model input {
-	width: 500px;
+	width: 340px;
 }
 
 #top_image #Postcode input {
-	width: 200px;
+	width: 140px;
 }
 
 #bottom_image {
@@ -160,27 +135,7 @@ a.nav-link {
 	margin-top: 20px;
 }
 
- /*.picrture {
- 	background: url(./images/Background_A0_Group_41_pattern.png);
- 	height: 400px;
- 	width: 100%;
- 	display: flex;
- 	justify-content: center;
- 	align-items: center;
- 	position: absolute;
- 	opacity: 1;
- }
-
- .color-overlay {
- 	width: 100%;
- 	height: 100%;
- 	background: linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 0.984313725490196));
- 	position: absolute;
- 	opacity: 0.4;
- }
- */
-
- .Our-Buyers-Check-List {
+.Our-Buyers-Check-List {
  	background: url(./images/Rectangle_4_A0_Rectangle_20_pattern.png);
  	background-size: cover;
   	width: 400px;
@@ -188,7 +143,7 @@ a.nav-link {
   	margin: 10px 0 0 10px;
   	position: relative;
   	float: left;
- }
+}
 
 .Our-Buyers-Check-List p,
  .How-To-Spot-Fraud p,
@@ -220,8 +175,6 @@ a.nav-link {
   	position: relative;
   	float: left;
  }
-
-
 
  .bottom_nav {
  	text-decoration: none;
@@ -271,145 +224,77 @@ a.nav-link {
 }
 
 
-@media (min-width: 300px) {
-	/*#header {
-		display: block;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-top: 1px;
- 	}
-
- 	#header p {
- 		text-align: center;
-        margin-bottom: 0;
- 	}
-
- 	#header nav a {
-        background-color: #CBCBCB;
-        color: black;
-        display: block;
-        padding: 0;
-        text-decoration: none;
-        font-size: 1.1em;
-    }
-  
-    #header ul {
-        list-style-type: none;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-    }
-  
-    #header nav li {
-        font-size: 1.2em;
-        line-height: 40px;
-		height: 40px;
-        border: 1px solid black;
-    }
-    */
-
-/*
-    .background-header-image {
-    	background: linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 0.984313725490196), url(./images/Background_A0_Group_41_pattern.png));
-    }
-
-    .background-linear-gradient {
-    	background: linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 0.984313725490196), url(./images/Background_A0_Group_41_pattern.png));
-    }
-*/
-
-	#findyourdreamcar {
-		position: relative;
-  text-align: center;
-  color: white;
-	}
-
-	#findyoudreamcar {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/*#findyourdreamcar {
+	position: relative;
+  	text-align: center;
+  	color: white;
 }
 
-    /*#findyourdreamcar h1,p {
-	    display: flex;
-	    justify-content: center;
-    }*/
-/*
-    #findyourdreamcar input .search_make_or_model {
-    	display: inline-flex;
-    	text-align: center;
-    }
-	
-	#findyourdreamcar input .postcode {
-		display: inline-flex;
-		justify-content: center;
-	}
+#findyoudreamcar {
+  	position: fixed;
+  	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}*/
 
-	#findyourdreamcar button .find_my_car {
-		display: inline-flex;
-		justify-content: center;
-	}*/
-
-	img {
- 		display: flex;
-    	margin: auto;
- 	}
-
-	h3, h4 {
-		text-align: center;
-	}
-
-	#Hottest-Deals, #Our-Top-Buying-Tips {
-		font-family: Poppins;
-		font-weight: bold;
-		font-size: 30px;
-		margin-top: 50px;
-		margin-bottom: 35px;
-	}
-
-
-
-	.cars-container {
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .cars-container img {
-    	width: 299px;
-        height: 188px;
-        margin-top: 15px;
-        background-color: #E5E5E5;
-        padding: 20px;
-        margin: 20px;
-        align-items: center;
-    }
-
-    .cars-container p {
-    	font-size: 1.5em;
-    }
-
-    .guides {
-    	display: flex;
-    	flex-wrap: wrap;
-    	text-align: center;
-    	justify-content: center;
-    }
-
-    .guides img {
-    	width: 400px;
-        height: 200px;
-        margin-top: 15px;
-    }
+#findyourdreamcar {
+	position: absolute;
+ 	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;
+  	text-align: center;
 }
 
-@media (min-width: 768px) {
-
+img {
+	display: flex;
+   	margin: auto;
 }
 
-@media (min-width: 1024px) {
+h3, h4 {
+	text-align: center;
+}
 
+#Hottest-Deals, #Our-Top-Buying-Tips {
+	font-family: Poppins;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 35px;
+}
+
+
+
+.cars-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.cars-container img {
+    width: 299px;
+    height: 188px;
+    margin-top: 15px;
+    background-color: #E5E5E5;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+}
+
+.cars-container p {
+    font-size: 1.5em;
+}
+
+.guides {
+  	display: flex;
+   	flex-wrap: wrap;
+   	text-align: center;
+   	justify-content: center;
+}
+
+.guides img {
+   	width: 400px;
+    height: 200px;
+    margin-top: 15px;
 }
