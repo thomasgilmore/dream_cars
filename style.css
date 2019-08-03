@@ -361,6 +361,15 @@ a.nav-link {
 		text-align: center;
 	}
 
+	#Hottest-Deals {
+		font-family: Poppins;
+		font-weight: bold;
+		font-size: 30px;
+		margin: 30px;
+	}
+
+
+
 	.cars-container {
         display: flex;
         flex-wrap: wrap;
@@ -369,11 +378,13 @@ a.nav-link {
     }
 
     .cars-container img {
-    	width: 239px;
-        height: 144px;
+    	width: 299px;
+        height: 188px;
         margin-top: 15px;
         background-color: #E5E5E5;
-		background-size: 299px 188px;
+        padding: 20px;
+        margin: 20px;
+        align-items: center;
     }
 
     .cars-container p {
