@@ -18,8 +18,9 @@
 	/*width: 228px;
 	height: 60px;*/
 	text-align: center;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 20px;
 }
 
 #button-lime-green {
@@ -32,6 +33,15 @@
 
 p {
 	text-align: center;
+	font-family: Poppins;
+	font-size: 20px;
+	color: rgba(105,105,105,1);
+}
+
+.cars-container p {
+	font-size: 24px;
+	color: black;
+	font-weight: bold;
 }
 
 /*#top_background_image img {
@@ -106,6 +116,14 @@ a.nav-link {
 	background-position: center;
 	height: 612px;
 	width: 100%;
+}
+
+#top_image #Search-Make-Or-Model input {
+	width: 500px;
+}
+
+#top_image #Postcode input {
+	width: 200px;
 }
 
 #bottom_image {
@@ -212,11 +230,17 @@ a.nav-link {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    background-color: rgba(52,44,44,1);
+    height: 98px;
 }
 
 .bottom_nav h4 {
     text-align: left;
-    margin: 20px;
+    margin: 40px 0px 0px 50px;
+    color: white;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: bold;
 }
   
 .bottom_nav ul {
@@ -231,13 +255,20 @@ a.nav-link {
 }
 
 .bottom_nav a {
-	margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+	margin: 40px 60px 0 0;
     display: inline-flex;
-    color: black;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
 }
 
+#top_image nav a:hover {
+	color: rgba(222,255,6,1);
+}
+
+.bottom_nav a:hover {
+  color: rgba(222,255,6,1);
+}
 
 
 @media (min-width: 300px) {
@@ -338,9 +369,11 @@ a.nav-link {
     }
 
     .cars-container img {
-    	width: 400px;
-        height: 250px;
+    	width: 239px;
+        height: 144px;
         margin-top: 15px;
+        background-color: #E5E5E5;
+		background-size: 299px 188px;
     }
 
     .cars-container p {
