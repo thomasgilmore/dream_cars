@@ -282,6 +282,7 @@ h3, h4 {
       z-index: 20;
       position: absolute; 
       margin: 50px 0px 0px 249px;
+      border-radius: 25px 0px 0px 25px;
     }
 
 .square2 {
