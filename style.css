@@ -3,13 +3,13 @@
 * {
     margin: 0;
     padding: 0;
- }
+}
 
- .form-inline {
+.form-inline {
  	display: inline-flex;
  	flex-wrap: nowrap;
  	justify-content: center;
- }
+}
 
 #button-orange {
 	display: flex;
@@ -276,36 +276,44 @@ h3, h4 {
 }
 
 .square {
-      width: 80px;
-      height: 25px;
-      background: rgba(245,166,35,1);
-      z-index: 20;
-      position: absolute; 
-      margin: 50px 0px 0px 249px;
-      border-radius: 25px 0px 0px 25px;
-    }
-
-.square2 {
-	width: 0;
-      height: 0;
-      border-top: 10px solid rgba(184,124,23,1);
-      border-right: 10px solid transparent;
-      position: absolute;
-      z-index: 10; 
-      margin: 75px 0px 0px 319px;
+    width: 80px;
+    height: 40px;
+    background: rgba(245,166,35,1);
+    z-index: 20;
+    position: absolute; 
+    margin: 40px 0px 0px 249px;
+    border-radius: 25px 0px 0px 25px;
+    padding-top: 6px;
 }
+
+.parallelogram {
+    width: 50px;
+    height: 40px;
+    transform: skew(20deg);
+    background: rgba(245,166,35,1);
+    position: absolute; 
+    margin: 40px 0px 0px 247px;
+    z-index: 15;
+    border-radius: 5px 0px 0px 4px;
+}
+
+.triangle {
+	width: 0;
+    height: 0;
+    border-top: 10px solid rgba(184,124,23,1);
+    border-right: 10px solid transparent;
+    position: absolute;
+    z-index: 10; 
+    margin: 80px 0px 0px 319px;
+}
+
 span {
 	color: white;
 	text-align: center;
-	font-size: 15px;
+	font-size: 18px;
 	font-family: Poppins, sans-serif;
 	font-weight: bold;
 }
-
-
-
-
-
 
 .guides {
   	display: flex;
